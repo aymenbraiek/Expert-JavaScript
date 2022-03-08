@@ -1,44 +1,49 @@
-// // var color = 'red';
-// // var name ='foo';
-// // function first() {
-// //     var color ='green';
-// //     console.log(color);
+// // // var color = 'red';
+// // // var name ='foo';
+// // // function first() {
+// // //     var color ='green';
+// // //     console.log(color);
     
 
-// //     function second() {
-// //         console.log(name);
-// //   }
-// //   second();
+// // //     function second() {
+// // //         console.log(name);
+// // //   }
+// // //   second();
+// // // }
+// // // first();
+
+// // // const  greeting = function (){
+// // //     console.log('greeting hiiiii');
+// // // }
+// // // greeting();
+
+// // const getName = function(gender){
+// //     return gender === 'male'?'john' : 'emilie'
 // // }
-// // first();
 
-// // const  greeting = function (){
-// //     console.log('greeting hiiiii');
+// // const sayHiWithName = function(name) {
+// //     console.log(name('male'));
 // // }
-// // greeting();
-
-// const getName = function(gender){
-//     return gender === 'male'?'john' : 'emilie'
-// }
-
-// const sayHiWithName = function(name) {
-//     console.log(name('male'));
-// }
-// sayHiWithName(getName);
+// // sayHiWithName(getName);
 
 
 
-// const makeFunc = function() {
-//     return function(){
-//         console.log('holaaaaaaaa!!!!!')
-//     }
-// }
+// // const makeFunc = function() {
+// //     return function(){
+// //         console.log('holaaaaaaaa!!!!!')
+// //     }
+// // }
 
-// makeFunc()();
-// c 
+// // makeFunc()();
+// // c 
 
 
-(function startGame() {
-    //init()
-    console.log('start !!!!!!!!!!!!!!!!!!')
+// (function startGame() {
+//     //init()
+//     console.log('start !!!!!!!!!!!!!!!!!!')
+// })();
+
+var result =(function startGame(){
+    console.log('start game!!!!!!!!!!');
+    return Math.floor(Math.random() *3);
 })();
